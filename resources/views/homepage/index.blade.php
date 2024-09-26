@@ -48,7 +48,7 @@
 
         <!-- SECTION 3 -->
         <div class="w-full mb-8">
-            <div class="w-4/5 mx-auto">
+            <div class="w-11/12 mx-auto">
                 <div class="flex flex-col xl:flex-row lg:py-24">
                     <div class="w-full xl:w-1/2 pt-20 mb-16">
                         <div class="w-4/5 mr-auto">
@@ -59,23 +59,23 @@
                     </div>
                     <div class="w-full xl:w-1/2 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 lg:grid-rows-2 gap-y-4">
                         <div class="w-72 h-72 mx-auto bg-kuning-gold text-white p-6 rounded-3xl">
-                            <i class="fa-solid fa-clock-rotate-left text-4xl mb-3"></i>
-                            <p class="text-sm mb-4 font-semibold">Hemat Waktu</p>
+                            <i class="fa-solid fa-clock-rotate-left text-4xl mb-3 xl:mb-2"></i>
+                            <p class="text-sm mb-4 xl:mb-3 font-semibold">Hemat Waktu</p>
                             <span class="text-sm">Undangan digital memungkinkan Anda mengirimkan undangan ke banyak tamu dalam hitungan detik. Tidak perlu repot dengan pengiriman fisik.</span>
                         </div>
                         <div class="w-72 h-72 mx-auto bg-hitam-muda text-white p-6 rounded-3xl">
-                            <i class="fa-solid fa-money-bill-wave text-4xl mb-3"></i>
-                            <p class="text-sm mb-4 font-semibold">Biaya Terjangkau</p>
+                            <i class="fa-solid fa-money-bill-wave text-4xl mb-3 xl:mb-2"></i>
+                            <p class="text-sm mb-4 xl:mb-3 font-semibold">Biaya Terjangkau</p>
                             <span class="text-sm">Kurangi biaya pengiriman dan cetak dengan undangan digital. Pilihan hemat untuk acara besar tanpa mengorbankan kualitas.</span>
                         </div>
                         <div class="w-72 h-72 mx-auto bg-hitam-muda text-white p-6 rounded-3xl">
-                            <i class="fa-solid fa-screwdriver-wrench text-4xl mb-3"></i>
-                            <p class="text-sm mb-4 font-semibold">Pengelolaan Sederhana</p>
+                            <i class="fa-solid fa-screwdriver-wrench text-4xl mb-3 xl:mb-2"></i>
+                            <p class="text-sm mb-4 xl:mb-3 font-semibold">Pengelolaan Sederhana</p>
                             <span class="text-sm">Kelola daftar tamu, konfirmasi kehadiran, dan kirim pengingat secara otomatis. Semua dalam satu platform yang mudah digunakan.</span>
                         </div>
                         <div class="w-72 h-72 mx-auto bg-hitam-muda text-white p-6 rounded-3xl">
-                            <i class="fa-solid fa-leaf text-4xl mb-3"></i>
-                            <p class="text-sm mb-4 font-semibold">Ramah Lingkungan</p>
+                            <i class="fa-solid fa-leaf text-4xl mb-3 xl:mb-2"></i>
+                            <p class="text-sm mb-4 xl:mb-3 font-semibold">Ramah Lingkungan</p>
                             <span class="text-sm">Kurangi penggunaan kertas dan dampak lingkungan dengan memilih undangan digital. Solusi cerdas untuk acara yang lebih hijau.</span>
                         </div>
                     </div>
@@ -88,7 +88,7 @@
          <div class="w-full bg-semu-kuning-v2 py-12">
             <h3 class="text-center font-bold text-2xl mb-2">Langkah Mudah Memesan Undangan</h3>
             <p class="text-center font-medium text-base mb-8">Ikuti langkah mudah untuk mendapatkan undangan impian Anda.</p>
-            <div class="w-full lg:w-4/5 lg:mx-auto flex flex-col lg:flex-row">
+            <div class="w-full lg:w-4/5 lg:mx-auto flex flex-col lg:flex-row lg:gap-10">
                 <div class="w-11/12 mx-auto lg:w-1/3">
                     <ul>
                         <li class="flex gap-3 mb-3 py-5 border-b-coklat items-center">
@@ -135,8 +135,8 @@
                         </li>
                     </ul>
                 </div>
-                <div class="w-full lg:w-2/3 p-5 lg:mx-auto">
-                    <div class="h-screen bg-slate-200 rounded-2xl"></div>
+                <div class="w-full lg:w-2/3 p-5 xl:pt-5 xl:pb-5 xl:pl-5 lg:mx-auto">
+                    <div class="h-screen bg-slate-100 rounded-2xl ms-auto"></div>
                 </div>
             </div>
          </div>
@@ -153,22 +153,22 @@
                     <span class="pb-2 px-3">Acara Lainnya</span>
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-12">
-                    <div class="sm:w-56  lg:w-64 xl:w-96 mx-auto m-5">
+                    <div class="sm:w-56  lg:w-64 xl:w-72 mx-auto m-5">
                         <img src="{{ asset('assets/img/Frame 31.png') }}" class="mb-4" alt="">
                     </div>
-                    <div class="sm:w-56  lg:w-64 xl:w-96 mx-auto m-5">
+                    <div class="sm:w-56  lg:w-64 xl:w-72 mx-auto m-5">
                         <img src="{{ asset('assets/img/Frame 31.png') }}" class="mb-4" alt="">
                     </div>
-                    <div class="sm:w-56  lg:w-64 xl:w-96 mx-auto m-5">
+                    <div class="sm:w-56  lg:w-64 xl:w-72 mx-auto m-5">
                         <img src="{{ asset('assets/img/Frame 31.png') }}" class="mb-4" alt="">
                     </div>
-                    <div class="sm:w-56  lg:w-64 xl:w-96 mx-auto m-5">
+                    <div class="sm:w-56  lg:w-64 xl:w-72 mx-auto m-5">
                         <img src="{{ asset('assets/img/Frame 31.png') }}" class="mb-4" alt="">
                     </div>
-                    <div class="sm:w-56  lg:w-64 xl:w-96 mx-auto m-5">
+                    <div class="sm:w-56  lg:w-64 xl:w-72 mx-auto m-5">
                         <img src="{{ asset('assets/img/Frame 31.png') }}" class="mb-4" alt="">
                     </div>
-                    <div class="sm:w-56  lg:w-64 xl:w-96 mx-auto m-5">
+                    <div class="sm:w-56  lg:w-64 xl:w-72 mx-auto m-5">
                         <img src="{{ asset('assets/img/Frame 31.png') }}" class="mb-4" alt="">
                     </div>
                 </div>
