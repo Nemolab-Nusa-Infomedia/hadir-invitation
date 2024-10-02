@@ -21,6 +21,6 @@
 
     @include('component.footer')
 
-    <script src="{{ url('assets/js/homepage/script.js') }}"></script>r
+    <script src="{{ url('assets/js/homepage/script.js') }}"></script>
 </body>
 </html>
