@@ -2,7 +2,7 @@
 
 @section('content')
     <!-- SECTION 1 -->
-        <div id="home" class="flex-col w-4/5 mx-auto flex lg:flex-row lg:items-center mb-16 py-16">
+        <div id="home" class="flex-col w-4/5 mx-auto flex lg:flex-row lg:items-center mb-16 py-12">
             <div class="w-full lg:w-1/2">
                 <img src="{{ asset('assets/img/Frame 100.png') }}" class="w-full" alt="">
             </div>
