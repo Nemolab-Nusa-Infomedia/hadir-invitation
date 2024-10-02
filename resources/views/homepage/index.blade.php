@@ -182,7 +182,7 @@
 
                     <!-- Center Image -->
                     <div class="lg:w-1/3">
-                        <img src="{{ url('assets/img/mockup.png') }}" alt="Phone with invitation" class="mx-auto w-80">
+                        <img src="{{ asset('assets/img/mockup.png') }}" alt="Phone with invitation" class="mx-auto w-80">
                     </div>
 
                     <!-- Right Column (Steps 4, 5, 6) -->
@@ -245,7 +245,7 @@
             <div id="templateContainer" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               <!-- Card 1 (Pernikahan) -->
               <div class="template-item bg-white rounded-lg shadow-md overflow-hidden fade-enter fade-enter-active" data-category="pernikahan">
-                <img src="{{ url('assets/img/mockup-undangan/frame-1.png') }}" alt="Ruwah Suci" class="w-full object-cover">
+                <img src="{{ asset('assets/img/mockup-undangan/frame-1.png') }}" alt="Ruwah Suci" class="w-full object-cover">
                 <div class="p-4 text-start">
                   <h3 class="text-lg font-semibold mb-2">Ruwah Suci</h3>
                   <div class="flex justify-between gap-2">
@@ -257,7 +257,7 @@
 
               <!-- Card 2 (Kedukaan) -->
               <div class="template-item bg-white rounded-lg shadow-md overflow-hidden fade-enter fade-enter-active" data-category="kedukaan">
-                <img src="{{ url('assets/img/mockup-undangan/frame-2.png') }}" alt="Modern Elegan" class="w-full object-cover">
+                <img src="{{ asset('assets/img/mockup-undangan/frame-2.png') }}" alt="Modern Elegan" class="w-full object-cover">
                 <div class="p-4 text-start">
                   <h3 class="text-lg font-semibold mb-2">Modern Elegan</h3>
                   <div class="flex justify-between gap-2">
@@ -269,7 +269,7 @@
 
               <!-- Card 3 (Pernikahan) -->
               <div class="template-item bg-white rounded-lg shadow-md overflow-hidden fade-enter fade-enter-active" data-category="pernikahan">
-                <img src="{{ url('assets/img/mockup-undangan/frame-3.png') }}" alt="Nuansa Nostalgia" class="w-full object-cover">
+                <img src="{{ asset('assets/img/mockup-undangan/frame-3.png') }}" alt="Nuansa Nostalgia" class="w-full object-cover">
                 <div class="p-4 text-start">
                   <h3 class="text-lg font-semibold mb-2">Nuansa Nostalgia</h3>
                   <div class="flex justify-between gap-2">
@@ -281,7 +281,7 @@
 
               <!-- Card 4 (Khitanan) -->
               <div class="template-item bg-white rounded-lg shadow-md overflow-hidden fade-enter fade-enter-active" data-category="khitanan">
-                <img src="{{ url('assets/img/mockup-undangan/frame-3.png') }}" alt="Khitanan Modern" class="w-full object-cover">
+                <img src="{{ asset('assets/img/mockup-undangan/frame-3.png') }}" alt="Khitanan Modern" class="w-full object-cover">
                 <div class="p-4 text-start">
                   <h3 class="text-lg font-semibold mb-2">Khitanan Modern</h3>
                   <div class="flex justify-between gap-2">
@@ -293,7 +293,7 @@
 
               <!-- Card 5 (pernikahan) -->
               <div class="template-item bg-white rounded-lg shadow-md overflow-hidden fade-enter fade-enter-active" data-category="pernikahan">
-                <img src="{{ url('assets/img/mockup-undangan/frame-2.png') }}" alt="Khitanan Modern" class="w-full object-cover">
+                <img src="{{ asset('assets/img/mockup-undangan/frame-2.png') }}" alt="Khitanan Modern" class="w-full object-cover">
                 <div class="p-4 text-start">
                   <h3 class="text-lg font-semibold mb-2">Pernikahan Modern</h3>
                   <div class="flex justify-between gap-2">
@@ -305,7 +305,7 @@
 
               <!-- Card 6 (duka) -->
               <div class="template-item bg-white rounded-lg shadow-md overflow-hidden fade-enter fade-enter-active" data-category="kedukaan">
-                <img src="{{ url('assets/img/mockup-undangan/frame-1.png') }}" alt="Khitanan Modern" class="w-full object-cover">
+                <img src="{{ asset('assets/img/mockup-undangan/frame-1.png') }}" alt="Khitanan Modern" class="w-full object-cover">
                 <div class="p-4 text-start">
                   <h3 class="text-lg font-semibold mb-2">Duka</h3>
                   <div class="flex justify-between gap-2">
