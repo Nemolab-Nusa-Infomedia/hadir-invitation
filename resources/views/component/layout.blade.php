@@ -20,5 +20,7 @@
     <!-- END CONTENT -->
 
     @include('component.footer')
+
+    <script src="{{ url('assets/js/homepage/script.js') }}"></script>r
 </body>
 </html>
