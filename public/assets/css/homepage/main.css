@@ -8,6 +8,10 @@
 
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 .poppins{
     font-family: "Poppins", sans-serif;
     font-style: normal;
@@ -43,3 +47,49 @@
 .border-coklat{
     border: 3px solid var(--bg-coklat);
 }
+
+.custom-bg-section-4 {
+    position: relative;
+    z-index: 1;
+    background-color: #FCE7A1;
+}
+
+.custom-bg-section-4::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../../img/bakground-section-4.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.1; /* Adjust opacity here */
+    z-index: -1; /* Send background behind the content */
+}
+
+/* animation */
+.fade-enter {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  .fade-enter-active {
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  .fade-leave {
+    opacity: 1;
+    transform: scale(1);
+  }
+  .fade-leave-active {
+    opacity: 0;
+    transform: scale(0.95);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  /* Tambahkan style untuk active kategori */
+  .category-active {
+    border-bottom: 2px solid black;
+    color: black;
+  }

@@ -2,7 +2,7 @@
 
 @section('content')
     <!-- SECTION 1 -->
-        <div class="flex-col w-4/5 mx-auto flex lg:flex-row lg:items-center mb-16">
+        <div id="home" class="flex-col w-4/5 mx-auto flex lg:flex-row lg:items-center mb-16 py-16">
             <div class="w-full lg:w-1/2">
                 <img src="{{ asset('assets/img/Frame 100.png') }}" class="w-full" alt="">
             </div>
@@ -24,60 +24,109 @@
         <!-- END SECTION 1 -->
 
         <!-- SECTION 2 -->
-        <div class="w-full bg-semu-kuning">
-            <div class="w-4/5 mx-auto py-8 grid md:grid-cols-2 lg:grid-cols-4 text-center text-coklat lg:content-center lg:items-center lg:h-44">
-                <div class="w-4/5 mx-auto mb-8 lg:mb-0">
-                    <p class="font-semibold">Desain Mudah</p>
-                    <span class="text-sm">Sesuaikan desain undangan dengan tema acara Anda dengan cepat dan mudah.</span>
+        <section class=" mx-auto px-4 py-16 custom-bg-section-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+              <!-- Desain Mudah -->
+              <div class="text-center p-6 bg-white rounded-lg shadow-md w-full">
+                <div class="mb-4 text-orange-500">
+                  <!-- Font Awesome Icon for Paint Brush -->
+                  <i class="fas fa-paint-brush fa-3x"></i>
                 </div>
-                <div class="w-4/5 mx-auto mb-8 lg:mb-0">
-                    <p class="font-semibold">Akses Tanpa Batas</p>
-                    <span class="text-sm">Tamu dapat mengakses undangan dari perangkat apa pun, kapan saja.</span>
+                <h3 class="text-lg font-semibold mb-2">Desain Mudah</h3>
+                <p class="text-sm text-gray-600">Sesuaikan desain undangan dengan tema acara Anda dengan cepat dan mudah.</p>
+              </div>
+
+              <!-- Akses Tanpa Batas -->
+              <div class="text-center p-6 bg-white rounded-lg shadow-md w-full">
+                <div class="mb-4 text-orange-500">
+                  <!-- Font Awesome Icon for Mobile Access -->
+                  <i class="fas fa-mobile-alt fa-3x"></i>
                 </div>
-                <div class="w-4/5 mx-auto mb-8 lg:mb-0">
-                    <p class="font-semibold">Pengelolaan Mudah</p>
-                    <span class="text-sm">Kelola semua undangan dan konfirmasi kehadiran dalam satu platform yang efisien.</span>
+                <h3 class="text-lg font-semibold mb-2">Akses Tanpa Batas</h3>
+                <p class="text-sm text-gray-600">Tamu dapat mengakses undangan dari perangkat apa pun, kapan saja.</p>
+              </div>
+
+              <!-- Pengelolaan Mudah -->
+              <div class="text-center p-6 bg-white rounded-lg shadow-md w-full">
+                <div class="mb-4 text-orange-500">
+                  <!-- Font Awesome Icon for Management -->
+                  <i class="fas fa-tasks fa-3x"></i>
                 </div>
-                <div class="w-4/5 mx-auto mb-8 lg:mb-0">
-                    <p class="font-semibold">Pembaruan Instan</p>
-                    <span class="text-sm">Update undangan secara langsung dan beri tahu semua tamu tanpa perlu mencetak ulang.</span>
+                <h3 class="text-lg font-semibold mb-2">Pengelolaan Mudah</h3>
+                <p class="text-sm text-gray-600">Kelola semua undangan dan konfirmasi kehadiran dalam satu platform yang efisien.</p>
+              </div>
+
+              <!-- Pembaruan Instan -->
+              <div class="text-center p-6 bg-white rounded-lg shadow-md w-full">
+                <div class="mb-4 text-orange-500">
+                  <!-- Font Awesome Icon for Sync -->
+                  <i class="fas fa-sync-alt fa-3x"></i>
                 </div>
+                <h3 class="text-lg font-semibold mb-2">Pembaruan Instan</h3>
+                <p class="text-sm text-gray-600">Update undangan secara langsung dan beri tahu semua tamu tanpa perlu mencetak ulang.</p>
+              </div>
+
             </div>
-        </div>
+          </section>
         <!-- END SECTION 2 -->
 
         <!-- SECTION 3 -->
-        <div class="w-full mb-8">
-            <div class="w-11/12 mx-auto">
-                <div class="flex flex-col xl:flex-row lg:py-24">
-                    <div class="w-full xl:w-1/2 pt-20 mb-16">
-                        <div class="w-4/5 mr-auto">
-                            <h3 class="font-semibold text-3xl mb-6">Keunggulan Undangan Digital untuk Acara Anda</h3>
-                            <span class="text-sm">Undangan digital memungkinkan Anda menyesuaikan desain dengan tema acara secara fleksibel dan mudah melakukan perubahan. Edit elemen desain dan kirim pembaruan instan, memastikan semua tamu mendapatkan informasi terbaru tanpa perlu mencetak ulang.</span>
-                            <button class="bg-coklat block mt-6 py-2 px-3 rounded-lg text-white"><a href=""><i class="fa-solid fa-cart-shopping"></i> Pesan Sekarang</a></button>
+        <div id="keunggulan" class="container mx-auto px-4 py-16">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Left Section -->
+                <div class="flex flex-col justify-center">
+                    <h2 class="text-2xl md:text-3xl font-bold mb-4">Keunggulan Undangan Digital untuk Acara Anda</h2>
+                    <p class="text-gray-600 mb-6">
+                        Undangan digital memungkinkan Anda menyesuaikan desain dengan tema acara secara fleksibel dan mudah melakukan perubahan. Edit elemen desain dan kirim pembaruan instan, memastikan semua tamu mendapatkan informasi terbaru tanpa perlu mencetak ulang.
+                    </p>
+                    <button class="bg-coklat block mt-6 py-2 px-3 rounded-lg text-white"><a href=""><i class="fa-solid fa-cart-shopping"></i> Pesan Sekarang</a></button>
+                </div>
+
+                <!-- Right Section: Cards -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <!-- Card 1 -->
+                    <div class="group bg-yellow-500 p-6 rounded-lg shadow-md transition-transform transform hover:scale-105 hover:-rotate-2 hover:bg-yellow-500">
+                        <div class="flex items-center space-x-2 mb-4">
+                            <span class="text-3xl text-white"><i class="fa-solid fa-clock-rotate-left text-4xl mb-3 xl:mb-2"></i></span>
+                            <h3 class="text-lg text-white font-semibold">Hemat Waktu</h3>
                         </div>
+                        <p class="text-white">
+                            Undangan digital memungkinkan Anda mengirimkan undangan ke banyak tamu dalam hitungan detik. Tidak perlu repot dengan pengiriman fisik.
+                        </p>
                     </div>
-                    <div class="w-full xl:w-1/2 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 lg:grid-rows-2 gap-y-4">
-                        <div class="w-72 h-72 mx-auto bg-kuning-gold text-white p-6 rounded-3xl">
-                            <i class="fa-solid fa-clock-rotate-left text-4xl mb-3 xl:mb-2"></i>
-                            <p class="text-sm mb-4 xl:mb-3 font-semibold">Hemat Waktu</p>
-                            <span class="text-sm">Undangan digital memungkinkan Anda mengirimkan undangan ke banyak tamu dalam hitungan detik. Tidak perlu repot dengan pengiriman fisik.</span>
+
+                    <!-- Card 2 -->
+                    <div class="group bg-hitam-muda p-6 rounded-lg shadow-md transition-transform transform hover:scale-105 hover:-rotate-2 hover:bg-yellow-500">
+                        <div class="flex items-center space-x-2 mb-4">
+                            <span class="text-3xl text-white"><i class="fa-solid fa-money-bill-wave text-4xl mb-3 xl:mb-2"></i></span>
+                            <h3 class="text-lg font-semibold text-white">Biaya Terjangkau</h3>
                         </div>
-                        <div class="w-72 h-72 mx-auto bg-hitam-muda text-white p-6 rounded-3xl">
-                            <i class="fa-solid fa-money-bill-wave text-4xl mb-3 xl:mb-2"></i>
-                            <p class="text-sm mb-4 xl:mb-3 font-semibold">Biaya Terjangkau</p>
-                            <span class="text-sm">Kurangi biaya pengiriman dan cetak dengan undangan digital. Pilihan hemat untuk acara besar tanpa mengorbankan kualitas.</span>
+                        <p class="text-white group-hover:text-gray-100">
+                            Kurangi biaya pengiriman dan cetak dengan undangan digital. Pilihan hemat untuk acara besar tanpa mengorbankan kualitas.
+                        </p>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="group bg-hitam-muda p-6 rounded-lg shadow-md transition-transform transform hover:scale-105 hover:-rotate-2 hover:bg-yellow-500">
+                        <div class="flex items-center space-x-2 mb-4">
+                            <span class="text-3xl text-white"><i class="fa-solid fa-screwdriver-wrench text-4xl mb-3 xl:mb-2"></i></span>
+                            <h3 class="text-lg font-semibold text-white">Pengelolaan Sederhana</h3>
                         </div>
-                        <div class="w-72 h-72 mx-auto bg-hitam-muda text-white p-6 rounded-3xl">
-                            <i class="fa-solid fa-screwdriver-wrench text-4xl mb-3 xl:mb-2"></i>
-                            <p class="text-sm mb-4 xl:mb-3 font-semibold">Pengelolaan Sederhana</p>
-                            <span class="text-sm">Kelola daftar tamu, konfirmasi kehadiran, dan kirim pengingat secara otomatis. Semua dalam satu platform yang mudah digunakan.</span>
+                        <p class="text-white group-hover:text-gray-100">
+                            Kelola daftar tamu, konfirmasi kehadiran, dan kirim pengingat secara otomatis. Semua dalam satu platform yang mudah digunakan.
+                        </p>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="group bg-hitam-muda p-6 rounded-lg shadow-md transition-transform transform hover:scale-105 hover:-rotate-2 hover:bg-yellow-500">
+                        <div class="flex items-center space-x-2 mb-4">
+                            <span class="text-3xl text-white"><i class="fa-solid fa-leaf text-4xl mb-3 xl:mb-2"></i></span>
+                            <h3 class="text-lg font-semibold text-white">Ramah Lingkungan</h3>
                         </div>
-                        <div class="w-72 h-72 mx-auto bg-hitam-muda text-white p-6 rounded-3xl">
-                            <i class="fa-solid fa-leaf text-4xl mb-3 xl:mb-2"></i>
-                            <p class="text-sm mb-4 xl:mb-3 font-semibold">Ramah Lingkungan</p>
-                            <span class="text-sm">Kurangi penggunaan kertas dan dampak lingkungan dengan memilih undangan digital. Solusi cerdas untuk acara yang lebih hijau.</span>
-                        </div>
+                        <p class="text-white group-hover:text-gray-100">
+                            Kurangi penggunaan kertas dan dampak lingkungan dengan memilih undangan digital. Solusi cerdas untuk acara yang lebih hijau.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -85,95 +134,189 @@
         <!-- END SECTION 3 -->
 
         <!-- SECTION 4 -->
-         <div class="w-full bg-semu-kuning-v2 py-12">
-            <h3 class="text-center font-bold text-2xl mb-2">Langkah Mudah Memesan Undangan</h3>
-            <p class="text-center font-medium text-base mb-8">Ikuti langkah mudah untuk mendapatkan undangan impian Anda.</p>
-            <div class="w-full lg:w-4/5 lg:mx-auto flex flex-col lg:flex-row lg:gap-10">
-                <div class="w-11/12 mx-auto lg:w-1/3">
-                    <ul>
-                        <li class="flex gap-3 mb-3 py-5 border-b-coklat items-center">
-                            <div class="w-11 h-9 lg:w-16 lg:h-12 flex items-center justify-center rounded-full bg-coklat text-white"><i class="fa-solid fa-1"></i></div>
-                            <div class="flex flex-col">
-                                <p class="font-semibold">Buat Akun</p>
-                                <p class="font-normal">Anda dapat membuat akun pribadi atau akun perusahaan</p>
-                            </div>
-                        </li>
-                        <li class="flex gap-3 mb-3 py-5 border-b-coklat items-center">
-                            <div class="w-11 h-9 lg:w-16 lg:h-12 flex items-center justify-center rounded-full border-coklat text-coklat"><i class="fa-solid fa-2"></i></div>
-                            <div class="flex flex-col">
-                                <p class="font-semibold">Buat Akun</p>
-                                <p class="font-normal">Anda dapat membuat akun pribadi atau akun perusahaan</p>
-                            </div>
-                        </li>
-                        <li class="flex gap-3 mb-3 py-5 border-b-coklat items-center">
-                            <div class="w-11 h-9 lg:w-16 lg:h-12 flex items-center justify-center rounded-full border-coklat text-coklat"><i class="fa-solid fa-3"></i></div>
-                            <div class="flex flex-col">
-                                <p class="font-semibold">Buat Akun</p>
-                                <p class="font-normal">Anda dapat membuat akun pribadi atau akun perusahaan</p>
-                            </div>
-                        </li>
-                        <li class="flex gap-3 mb-3 py-5 border-b-coklat items-center">
-                            <div class="w-11 h-9 lg:w-16 lg:h-12 flex items-center justify-center rounded-full border-coklat text-coklat"><i class="fa-solid fa-4"></i></div>
-                            <div class="flex flex-col">
-                                <p class="font-semibold">Buat Akun</p>
-                                <p class="font-normal">Anda dapat membuat akun pribadi atau akun perusahaan</p>
-                            </div>
-                        </li>
-                        <li class="flex gap-3 mb-3 py-5 border-b-coklat items-center">
-                            <div class="w-11 h-9 lg:w-16 lg:h-12 flex items-center justify-center rounded-full border-coklat text-coklat"><i class="fa-solid fa-5"></i></div>
-                            <div class="flex flex-col">
-                                <p class="font-semibold">Buat Akun</p>
-                                <p class="font-normal">Anda dapat membuat akun pribadi atau akun perusahaan</p>
-                            </div>
-                        </li>
-                        <li class="flex gap-3 mb-3 py-5 border-b-coklat items-center">
-                            <div class="w-11 h-9 lg:w-16 lg:h-12 flex items-center justify-center rounded-full border-coklat text-coklat"><i class="fa-solid fa-6"></i></div>
-                            <div class="flex flex-col">
-                                <p class="font-semibold">Buat Akun</p>
-                                <p class="font-normal">Anda dapat membuat akun pribadi atau akun perusahaan</p>
-                            </div>
-                        </li>
-                    </ul>
+        <div id="bantuan" class="container mx-auto px-4 py-12 flex justify-center items-center custom-bg-section-4 rounded-xl">
+            <div class="w-full lg:w-11/12">
+                <!-- Title Section -->
+                <div class="text-center mb-12">
+                    <h1 class="text-3xl font-bold text-gray-800">Langkah Mudah Memesan Undangan</h1>
+                    <p class="text-lg text-gray-600">Ikuti Langkah Mudah Untuk Mendapatkan Undangan Impian Anda.</p>
                 </div>
-                <div class="w-full lg:w-2/3 p-5 xl:pt-5 xl:pb-5 xl:pl-5 lg:mx-auto">
-                    <div class="h-screen bg-slate-100 rounded-2xl ms-auto"></div>
+
+                <!-- Steps and Image Section -->
+                <div class="flex flex-col lg:flex-row justify-center items-center gap-8 lg:gap-12">
+                    <!-- Left Column (Steps 1, 2, 3) -->
+                    <div class="space-y-8 lg:w-1/3">
+                        <!-- Step 1 -->
+                        <div class="flex items-center space-x-4">
+                            <div class="w-12 h-12 bg-red-700 text-white flex justify-center items-center rounded-full">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-semibold text-gray-800">Buat Akun</h3>
+                                <p class="text-gray-600">Anda dapat membuat akun pribadi atau akun perusahaan</p>
+                            </div>
+                        </div>
+
+                        <!-- Step 2 -->
+                        <div class="flex items-center space-x-4">
+                            <div class="w-12 h-12 bg-red-700 text-white flex justify-center items-center rounded-full">
+                                <i class="fas fa-calendar-alt"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-semibold text-gray-800">Temukan Acaranya</h3>
+                                <p class="text-gray-600">Cari acara yang ingin Anda buat undangannya.</p>
+                            </div>
+                        </div>
+
+                        <!-- Step 3 -->
+                        <div class="flex items-center space-x-4">
+                            <div class="w-12 h-12 bg-red-700 text-white flex justify-center items-center rounded-full">
+                                <i class="fas fa-palette"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-semibold text-gray-800">Pilih template desain</h3>
+                                <p class="text-gray-600">Pilih dari berbagai template yang tersedia.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Center Image -->
+                    <div class="lg:w-1/3">
+                        <img src="{{ url('assets/img/mockup.png') }}" alt="Phone with invitation" class="mx-auto w-80">
+                    </div>
+
+                    <!-- Right Column (Steps 4, 5, 6) -->
+                    <div class="space-y-8 lg:w-1/3">
+                        <!-- Step 4 -->
+                        <div class="flex items-center space-x-4">
+                            <div class="w-12 h-12 bg-red-700 text-white flex justify-center items-center rounded-full">
+                                <i class="fas fa-font"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-semibold text-gray-800">Sesuaikan teks</h3>
+                                <p class="text-gray-600">Edit teks sesuai kebutuhan Anda.</p>
+                            </div>
+                        </div>
+
+                        <!-- Step 5 -->
+                        <div class="flex items-center space-x-4">
+                            <div class="w-12 h-12 bg-red-700 text-white flex justify-center items-center rounded-full">
+                                <i class="fas fa-credit-card"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-semibold text-gray-800">Bayar online</h3>
+                                <p class="text-gray-600">Lakukan pembayaran secara online untuk memproses pesanan.</p>
+                            </div>
+                        </div>
+
+                        <!-- Step 6 -->
+                        <div class="flex items-center space-x-4">
+                            <div class="w-12 h-12 bg-red-700 text-white flex justify-center items-center rounded-full">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-semibold text-gray-800">Undangan Anda sudah Tayang!</h3>
+                                <p class="text-gray-600">Undangan siap untuk dibagikan.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-         </div>
+        </div>
         <!-- END SECTION 4 -->
 
         <!-- SECTION 5 -->
-        <div class="w-full">
-            <div class="w-4/5 mx-auto text-center my-24 lg:py-24">
-                <h3 class="font-semibold text-2xl mb-3">Temukan Inspirasi dari Beragam Template Kami</h3>
-                <p>Lihat preview template kami dan temukan desain yang paling cocok untuk kebutuhan Anda.</p>
-                <div class="mt-10 flex gap-3 justify-center">
-                    <span class="active-menu pb-2 px-3">Pernikahan</span>
-                    <span class="pb-2 px-3">Kedukaan</span>
-                    <span class="pb-2 px-3">Acara Lainnya</span>
-                </div>
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-12">
-                    <div class="sm:w-56  lg:w-64 xl:w-72 mx-auto m-5">
-                        <img src="{{ asset('assets/img/Frame 31.png') }}" class="mb-4" alt="">
-                    </div>
-                    <div class="sm:w-56  lg:w-64 xl:w-72 mx-auto m-5">
-                        <img src="{{ asset('assets/img/Frame 31.png') }}" class="mb-4" alt="">
-                    </div>
-                    <div class="sm:w-56  lg:w-64 xl:w-72 mx-auto m-5">
-                        <img src="{{ asset('assets/img/Frame 31.png') }}" class="mb-4" alt="">
-                    </div>
-                    <div class="sm:w-56  lg:w-64 xl:w-72 mx-auto m-5">
-                        <img src="{{ asset('assets/img/Frame 31.png') }}" class="mb-4" alt="">
-                    </div>
-                    <div class="sm:w-56  lg:w-64 xl:w-72 mx-auto m-5">
-                        <img src="{{ asset('assets/img/Frame 31.png') }}" class="mb-4" alt="">
-                    </div>
-                    <div class="sm:w-56  lg:w-64 xl:w-72 mx-auto m-5">
-                        <img src="{{ asset('assets/img/Frame 31.png') }}" class="mb-4" alt="">
-                    </div>
-                </div>
-                <button class="bg-coklat px-5 py-3 text-white font-medium rounded-xl"><a href="">Mulai Pemesanan Undangan</a></button>
+        <section id="tamplate" class="max-w-7xl mx-auto py-8">
+            <!-- Judul dan deskripsi -->
+            <div class="text-center mb-8">
+              <h2 class="text-3xl font-bold mb-2">Temukan Inspirasi dari Beragam Template Kami</h2>
+              <p class="text-gray-600">Lihat preview template kami dan temukan desain yang paling cocok untuk kebutuhan Anda.</p>
             </div>
-        </div>
+
+            <!-- Tabs (Kategori) -->
+            <div class="flex justify-center mb-6">
+              <button class="px-4 py-2 text-sm font-semibold text-gray-800 category-active" onclick="filterSelection('all', this)">Semua</button>
+              <button class="px-4 py-2 text-sm font-semibold text-gray-800 mx-4" onclick="filterSelection('pernikahan', this)">Pernikahan</button>
+              <button class="px-4 py-2 text-sm font-semibold text-gray-800 mx-4" onclick="filterSelection('kedukaan', this)">Kedukaan</button>
+              <button class="px-4 py-2 text-sm font-semibold text-gray-800" onclick="filterSelection('khitanan', this)">Khitanan</button>
+            </div>
+
+            <!-- Grid Template -->
+            <div id="templateContainer" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <!-- Card 1 (Pernikahan) -->
+              <div class="template-item bg-white rounded-lg shadow-md overflow-hidden fade-enter fade-enter-active" data-category="pernikahan">
+                <img src="{{ asset('assets/img/mockup-undangan/frame-1.png') }}" alt="Ruwah Suci" class="w-full object-cover">
+                <div class="p-4 text-start">
+                  <h3 class="text-lg font-semibold mb-2">Ruwah Suci</h3>
+                  <div class="flex justify-between gap-2">
+                    <button class="px-4 py-2 bg-coklat text-white rounded-md">Lihat Demo</button>
+                    <button class="px-4 py-2 bg-coklat text-white rounded-md">Pesan</button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 2 (Kedukaan) -->
+              <div class="template-item bg-white rounded-lg shadow-md overflow-hidden fade-enter fade-enter-active" data-category="kedukaan">
+                <img src="{{ asset('assets/img/mockup-undangan/frame-2.png') }}" alt="Modern Elegan" class="w-full object-cover">
+                <div class="p-4 text-start">
+                  <h3 class="text-lg font-semibold mb-2">Modern Elegan</h3>
+                  <div class="flex justify-between gap-2">
+                    <button class="px-4 py-2 bg-coklat text-white rounded-md">Lihat Demo</button>
+                    <button class="px-4 py-2 bg-coklat text-white rounded-md">Pesan</button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 3 (Pernikahan) -->
+              <div class="template-item bg-white rounded-lg shadow-md overflow-hidden fade-enter fade-enter-active" data-category="pernikahan">
+                <img src="{{ asset('assets/img/mockup-undangan/frame-3.png') }}" alt="Nuansa Nostalgia" class="w-full object-cover">
+                <div class="p-4 text-start">
+                  <h3 class="text-lg font-semibold mb-2">Nuansa Nostalgia</h3>
+                  <div class="flex justify-between gap-2">
+                    <button class="px-4 py-2 bg-coklat text-white rounded-md">Lihat Demo</button>
+                    <button class="px-4 py-2 bg-coklat text-white rounded-md">Pesan</button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 4 (Khitanan) -->
+              <div class="template-item bg-white rounded-lg shadow-md overflow-hidden fade-enter fade-enter-active" data-category="khitanan">
+                <img src="{{ asset('assets/img/mockup-undangan/frame-3.png') }}" alt="Khitanan Modern" class="w-full object-cover">
+                <div class="p-4 text-start">
+                  <h3 class="text-lg font-semibold mb-2">Khitanan Modern</h3>
+                  <div class="flex justify-between gap-2">
+                    <button class="px-4 py-2 bg-coklat text-white rounded-md">Lihat Demo</button>
+                    <button class="px-4 py-2 bg-coklat text-white rounded-md">Pesan</button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 5 (pernikahan) -->
+              <div class="template-item bg-white rounded-lg shadow-md overflow-hidden fade-enter fade-enter-active" data-category="pernikahan">
+                <img src="{{ asset('assets/img/mockup-undangan/frame-2.png') }}" alt="Khitanan Modern" class="w-full object-cover">
+                <div class="p-4 text-start">
+                  <h3 class="text-lg font-semibold mb-2">Pernikahan Modern</h3>
+                  <div class="flex justify-between gap-2">
+                    <button class="px-4 py-2 bg-coklat text-white rounded-md">Lihat Demo</button>
+                    <button class="px-4 py-2 bg-coklat text-white rounded-md">Pesan</button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 6 (duka) -->
+              <div class="template-item bg-white rounded-lg shadow-md overflow-hidden fade-enter fade-enter-active" data-category="kedukaan">
+                <img src="{{ asset('assets/img/mockup-undangan/frame-1.png') }}" alt="Khitanan Modern" class="w-full object-cover">
+                <div class="p-4 text-start">
+                  <h3 class="text-lg font-semibold mb-2">Duka</h3>
+                  <div class="flex justify-between gap-2">
+                    <button class="px-4 py-2 bg-coklat text-white rounded-md">Lihat Demo</button>
+                    <button class="px-4 py-2 bg-coklat text-white rounded-md">Pesan</button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Tambahkan lebih banyak card sesuai kebutuhan -->
+            </div>
+          </section>
         <!-- END SECTION 5 -->
 @endsection
