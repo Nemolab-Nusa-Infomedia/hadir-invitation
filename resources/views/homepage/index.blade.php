@@ -245,7 +245,7 @@
             <div id="templateContainer" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8">
                 <!-- Card 1 (Pernikahan) -->
                 <div class="template-item bg-white rounded-lg shadow-md overflow-hidden fade-enter fade-enter-active" data-category="pernikahan">
-                    <img src="{{ asset('assets/img/mockup-undangan/frame1.png') }}" alt="Ruwah Suci" class="w-full h-64 sm:h-80 object-cover">
+                    <img src="{{ asset('assets/img/mockup-undangan/frame2.png') }}" alt="Ruwah Suci" class="w-full h-64 sm:h-80 object-cover">
                     <div class="p-2 sm:p-4 text-start">
                         <h3 class="text-sm sm:text-lg font-semibold mb-2">Ruwah Suci</h3>
                         <div class="flex justify-between gap-2">
@@ -286,6 +286,18 @@
                         <h3 class="text-sm sm:text-lg font-semibold mb-2">Wedding</h3>
                         <div class="flex justify-between gap-2">
                             <a href="https://nemolab-nusa-infomedia.github.io/template-invitation/view/undangan-v4/index.html" class="px-2 py-1 text-xs sm:px-4 sm:py-2 sm:text-sm bg-coklat text-white rounded-md">Lihat Demo</a>
+                            <button class="px-2 py-1 text-xs sm:px-4 sm:py-2 sm:text-sm bg-coklat text-white rounded-md">Pesan</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 5 (Pernikahan) -->
+                <div class="template-item bg-white rounded-lg shadow-md overflow-hidden fade-enter fade-enter-active" data-category="pernikahan">
+                    <img src="{{ asset('assets/img/mockup-undangan/frame1.png') }}" alt="Khitanan Modern" class="w-full h-64 sm:h-80 object-cover">
+                    <div class="p-2 sm:p-4 text-start">
+                        <h3 class="text-sm sm:text-lg font-semibold mb-2">Wedding</h3>
+                        <div class="flex justify-between gap-2">
+                            <a href="https://nemolab-nusa-infomedia.github.io/template-invitation/view/undangan-v5/index.html" class="px-2 py-1 text-xs sm:px-4 sm:py-2 sm:text-sm bg-coklat text-white rounded-md">Lihat Demo</a>
                             <button class="px-2 py-1 text-xs sm:px-4 sm:py-2 sm:text-sm bg-coklat text-white rounded-md">Pesan</button>
                         </div>
                     </div>
