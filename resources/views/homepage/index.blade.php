@@ -257,7 +257,7 @@
 
                 <!-- Card 2 (Pernikahan) -->
                 <div class="template-item bg-white rounded-lg shadow-md overflow-hidden fade-enter fade-enter-active" data-category="pernikahan">
-                    <img src="{{ asset('assets/img/mockup-undangan/frame2.png') }}" alt="Modern Elegan" class="w-full h-64 sm:h-80 object-cover">
+                    <img src="{{ asset('assets/img/mockup-undangan/frame5.png') }}" alt="Modern Elegan" class="w-full h-64 sm:h-80 object-cover">
                     <div class="p-2 sm:p-4 text-start">
                         <h3 class="text-sm sm:text-lg font-semibold mb-2">Modern Elegan</h3>
                         <div class="flex justify-between gap-2">
