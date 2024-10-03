@@ -12,10 +12,10 @@
                     <p class="text-base mb-6">Kirim kabar gembira lebih mudah dengan undangan digital yang dapat disesuaikan untuk acara apapun—cepat, praktis, dan ramah lingkungan.</p>
                     <div class="grid grid-cols-2">
                         <div class="flex gap-3">
-                            <button class="bg-coklat text-xs w-11/12 xl:w-4/5 lg:text-base py-2 rounded-lg text-white"><a href=""><i class="fa-solid fa-cart-shopping"></i> Pesan Sekarang</a></button>
+                            <button class="bg-coklat text-xs w-11/12 xl:w-4/5 lg:text-base py-2 rounded-lg text-white"><a href="https://wa.me/6285183038794" target="_blank"><i class="fa-solid fa-cart-shopping"></i> Pesan Sekarang</a></button>
                         </div>
                         <div class="flex gap-3">
-                            <button class="border-coklat text-xs w-11/12 xl:w-4/5 lg:text-base py-2 rounded-lg text-coklat"><a href=""><i class="fa-solid fa-cart-shopping"></i> Lihat Tema</a></button>
+                            <button class="border-coklat text-xs w-11/12 xl:w-4/5 lg:text-base py-2 rounded-lg text-coklat"><a href="#template"><i class="fa-solid fa-cart-shopping"></i> Lihat Tema</a></button>
                         </div>
                     </div>
                 </div>
@@ -80,7 +80,7 @@
                     <p class="text-gray-600 mb-6">
                         Undangan digital memungkinkan Anda menyesuaikan desain dengan tema acara secara fleksibel dan mudah melakukan perubahan. Edit elemen desain dan kirim pembaruan instan, memastikan semua tamu mendapatkan informasi terbaru tanpa perlu mencetak ulang.
                     </p>
-                    <button class="bg-coklat block mt-6 py-2 px-3 rounded-lg text-white"><a href=""><i class="fa-solid fa-cart-shopping"></i> Pesan Sekarang</a></button>
+                    <a href="https://wa.me/6285183038794" target="_blank" class="bg-coklat block mt-6 py-2 px-3 rounded-lg text-white"><a href=""><i class="fa-solid fa-cart-shopping"></i> Pesan Sekarang</a></a>
                 </div>
 
                 <!-- Right Section: Cards -->
@@ -250,7 +250,7 @@
                         <h3 class="text-sm sm:text-lg font-semibold mb-2">Mantenan</h3>
                         <div class="flex justify-between gap-2">
                             <a href="https://nemolab-nusa-infomedia.github.io/template-invitation/view/undangan-v1/index.html" class="px-2 py-1 text-xs sm:px-4 sm:py-2 sm:text-sm bg-coklat text-white rounded-md">Lihat Demo</a>
-                            <button class="px-2 py-1 text-xs sm:px-4 sm:py-2 sm:text-sm bg-coklat text-white rounded-md">Pesan</button>
+                            <a href="https://wa.me/6285183038794" target="_blank" class="px-2 py-1 text-xs sm:px-4 sm:py-2 sm:text-sm bg-coklat text-white rounded-md">Pesan</a>
                         </div>
                     </div>
                 </div>
@@ -262,7 +262,7 @@
                         <h3 class="text-sm sm:text-lg font-semibold mb-2">Modern Elegan</h3>
                         <div class="flex justify-between gap-2">
                             <a href="https://nemolab-nusa-infomedia.github.io/template-invitation/view/undangan-v2/index.html" class="px-2 py-1 text-xs sm:px-4 sm:py-2 sm:text-sm bg-coklat text-white rounded-md">Lihat Demo</a>
-                            <button class="px-2 py-1 text-xs sm:px-4 sm:py-2 sm:text-sm bg-coklat text-white rounded-md">Pesan</button>
+                            <a href="https://wa.me/6285183038794" target="_blank" class="px-2 py-1 text-xs sm:px-4 sm:py-2 sm:text-sm bg-coklat text-white rounded-md">Pesan</a>
                         </div>
                     </div>
                 </div>
@@ -274,7 +274,7 @@
                         <h3 class="text-sm sm:text-lg font-semibold mb-2">Khitan</h3>
                         <div class="flex justify-between gap-2">
                             <a href="https://nemolab-nusa-infomedia.github.io/template-invitation/view/undangan-v3/index.html" class="px-2 py-1 text-xs sm:px-4 sm:py-2 sm:text-sm bg-coklat text-white rounded-md">Lihat Demo</a>
-                            <button class="px-2 py-1 text-xs sm:px-4 sm:py-2 sm:text-sm bg-coklat text-white rounded-md">Pesan</button>
+                            <a href="https://wa.me/6285183038794" target="_blank" class="px-2 py-1 text-xs sm:px-4 sm:py-2 sm:text-sm bg-coklat text-white rounded-md">Pesan</a href="https://wa.me/6285183038794" target="_blank">
                         </div>
                     </div>
                 </div>
@@ -286,7 +286,7 @@
                         <h3 class="text-sm sm:text-lg font-semibold mb-2">Wedding</h3>
                         <div class="flex justify-between gap-2">
                             <a href="https://nemolab-nusa-infomedia.github.io/template-invitation/view/undangan-v4/index.html" class="px-2 py-1 text-xs sm:px-4 sm:py-2 sm:text-sm bg-coklat text-white rounded-md">Lihat Demo</a>
-                            <button class="px-2 py-1 text-xs sm:px-4 sm:py-2 sm:text-sm bg-coklat text-white rounded-md">Pesan</button>
+                            <a href="https://wa.me/6285183038794" target="_blank" class="px-2 py-1 text-xs sm:px-4 sm:py-2 sm:text-sm bg-coklat text-white rounded-md">Pesan</a href="https://wa.me/6285183038794" target="_blank">
                         </div>
                     </div>
                 </div>
@@ -298,12 +298,12 @@
                         <h3 class="text-sm sm:text-lg font-semibold mb-2">Wedding</h3>
                         <div class="flex justify-between gap-2">
                             <a href="https://nemolab-nusa-infomedia.github.io/template-invitation/view/undangan-v5/index.html" class="px-2 py-1 text-xs sm:px-4 sm:py-2 sm:text-sm bg-coklat text-white rounded-md">Lihat Demo</a>
-                            <button class="px-2 py-1 text-xs sm:px-4 sm:py-2 sm:text-sm bg-coklat text-white rounded-md">Pesan</button>
+                            <a href="https://wa.me/6285183038794" target="_blank" class="px-2 py-1 text-xs sm:px-4 sm:py-2 sm:text-sm bg-coklat text-white rounded-md">Pesan</a href="https://wa.me/6285183038794" target="_blank">
                         </div>
                     </div>
                 </div>
 
-                <!-- Card 6 (Pernikahan) -->
+                {{-- <!-- Card 6 (Pernikahan) -->
                 <div class="template-item bg-white rounded-lg shadow-md overflow-hidden fade-enter fade-enter-active" data-category="pernikahan">
                     <img src="{{ asset('assets/img/mockup-undangan/frame1.png') }}" alt="Khitanan Modern" class="w-full h-64 sm:h-80 object-cover">
                     <div class="p-2 sm:p-4 text-start">
@@ -325,7 +325,7 @@
                             <button class="px-2 py-1 text-xs sm:px-4 sm:py-2 sm:text-sm bg-coklat text-white rounded-md">Pesan</button>
                         </div>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
         <!-- END SECTION 5 -->

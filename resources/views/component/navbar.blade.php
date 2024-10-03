@@ -6,7 +6,7 @@
         <li class="lg:p-3 active-menu"><a href="#home">Home</a></li>
         <li class="lg:p-3"><a href="#keunggulan">Keunggulan</a></li>
         <li class="lg:p-3"><a href="#bantuan">Bantuan</a></li>
-        <li class="lg:p-3"><a href="#tamplate">Preview</a></li>
+        <li class="lg:p-3"><a href="#template">Preview</a></li>
       </ul>
     </div>
 
@@ -24,7 +24,7 @@
         <li class="mb-3"><a href="#home">Home</a></li>
         <li class="mb-3"><a href="#keunggulan">Keunggulan</a></li>
         <li class="mb-3"><a href="#bantuan">Bantuan</a></li>
-        <li class="mb-3"><a href="#tamplate">Preview</a></li>
+        <li class="mb-3"><a href="#template">Preview</a></li>
       </ul>
     </div>
   </nav>
