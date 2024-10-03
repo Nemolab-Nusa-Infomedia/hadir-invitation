@@ -245,7 +245,7 @@
             <div id="templateContainer" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8">
                 <!-- Card 1 (Pernikahan) -->
                 <div class="template-item bg-white rounded-lg shadow-md overflow-hidden fade-enter fade-enter-active" data-category="pernikahan">
-                    <img src="{{ asset('assets/img/mockup-undangan/frame-1.png') }}" alt="Ruwah Suci" class="w-full h-64 sm:h-80 object-cover">
+                    <img src="{{ asset('assets/img/mockup-undangan/frame1.png') }}" alt="Ruwah Suci" class="w-full h-64 sm:h-80 object-cover">
                     <div class="p-2 sm:p-4 text-start">
                         <h3 class="text-sm sm:text-lg font-semibold mb-2">Ruwah Suci</h3>
                         <div class="flex justify-between gap-2">
@@ -257,7 +257,7 @@
 
                 <!-- Card 2 (Pernikahan) -->
                 <div class="template-item bg-white rounded-lg shadow-md overflow-hidden fade-enter fade-enter-active" data-category="pernikahan">
-                    <img src="{{ asset('assets/img/mockup-undangan/frame-2.png') }}" alt="Modern Elegan" class="w-full h-64 sm:h-80 object-cover">
+                    <img src="{{ asset('assets/img/mockup-undangan/frame2.png') }}" alt="Modern Elegan" class="w-full h-64 sm:h-80 object-cover">
                     <div class="p-2 sm:p-4 text-start">
                         <h3 class="text-sm sm:text-lg font-semibold mb-2">Modern Elegan</h3>
                         <div class="flex justify-between gap-2">
@@ -269,7 +269,7 @@
 
                 <!-- Card 3 (Khitanan) -->
                 <div class="template-item bg-white rounded-lg shadow-md overflow-hidden fade-enter fade-enter-active" data-category="khitanan">
-                    <img src="{{ asset('assets/img/mockup-undangan/frame-3.png') }}" alt="Nuansa Nostalgia" class="w-full h-64 sm:h-80 object-cover">
+                    <img src="{{ asset('assets/img/mockup-undangan/frame3.png') }}" alt="Nuansa Nostalgia" class="w-full h-64 sm:h-80 object-cover">
                     <div class="p-2 sm:p-4 text-start">
                         <h3 class="text-sm sm:text-lg font-semibold mb-2">Khitan</h3>
                         <div class="flex justify-between gap-2">
@@ -281,7 +281,7 @@
 
                 <!-- Card 4 (Pernikahan) -->
                 <div class="template-item bg-white rounded-lg shadow-md overflow-hidden fade-enter fade-enter-active" data-category="pernikahan">
-                    <img src="{{ asset('assets/img/mockup-undangan/frame-3.png') }}" alt="Khitanan Modern" class="w-full h-64 sm:h-80 object-cover">
+                    <img src="{{ asset('assets/img/mockup-undangan/frame3.png') }}" alt="Khitanan Modern" class="w-full h-64 sm:h-80 object-cover">
                     <div class="p-2 sm:p-4 text-start">
                         <h3 class="text-sm sm:text-lg font-semibold mb-2">Wedding</h3>
                         <div class="flex justify-between gap-2">
