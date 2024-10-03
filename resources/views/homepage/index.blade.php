@@ -309,7 +309,7 @@
                     <div class="p-2 sm:p-4 text-start">
                         <h3 class="text-sm sm:text-lg font-semibold mb-2">Wedding </h3>
                         <div class="flex justify-between gap-2">
-                            <a href="https://nemolab-nusa-infomedia.github.io/template-invitation/view/undangan-v5/index.html" class="px-2 py-1 text-xs sm:px-4 sm:py-2 sm:text-sm bg-coklat text-white rounded-md">Lihat Demo</a>
+                            <a href="#" class="px-2 py-1 text-xs sm:px-4 sm:py-2 sm:text-sm bg-coklat text-white rounded-md">Lihat Demo</a>
                             <button class="px-2 py-1 text-xs sm:px-4 sm:py-2 sm:text-sm bg-coklat text-white rounded-md">Pesan</button>
                         </div>
                     </div>
@@ -321,7 +321,7 @@
                     <div class="p-2 sm:p-4 text-start">
                         <h3 class="text-sm sm:text-lg font-semibold mb-2">Wedding</h3>
                         <div class="flex justify-between gap-2">
-                            <a href="https://nemolab-nusa-infomedia.github.io/template-invitation/view/undangan-v5/index.html" class="px-2 py-1 text-xs sm:px-4 sm:py-2 sm:text-sm bg-coklat text-white rounded-md">Lihat Demo</a>
+                            <a href="#" class="px-2 py-1 text-xs sm:px-4 sm:py-2 sm:text-sm bg-coklat text-white rounded-md">Lihat Demo</a>
                             <button class="px-2 py-1 text-xs sm:px-4 sm:py-2 sm:text-sm bg-coklat text-white rounded-md">Pesan</button>
                         </div>
                     </div>
