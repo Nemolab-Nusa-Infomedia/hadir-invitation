@@ -14,7 +14,7 @@
             </ul>
         </div>
         <div class="w-full border-t-2 border-t-white p-6 text-center text-white">
-            <p>Copyright © 2024 Logo | Powered by Vibrant Ecosystem</p>
+            <p>Copyright © 2024 | Powered by Hugo Studio</p>
         </div>
     </footer>
     <!-- FOOTER -->
