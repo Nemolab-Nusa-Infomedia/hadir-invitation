@@ -226,97 +226,71 @@
         <!-- END SECTION 4 -->
 
         <!-- SECTION 5 -->
-        <section id="tamplate" class="max-w-7xl mx-auto py-8">
+        <div id="template" class="container mx-auto py-8 px-4 md:px-14">
             <!-- Judul dan deskripsi -->
             <div class="text-center mb-8">
-              <h2 class="text-3xl font-bold mb-2">Temukan Inspirasi dari Beragam Template Kami</h2>
-              <p class="text-gray-600">Lihat preview template kami dan temukan desain yang paling cocok untuk kebutuhan Anda.</p>
+                <h2 class="text-xl sm:text-2xl md:text-3xl font-bold mb-2">Temukan Inspirasi dari Beragam Template Kami</h2>
+                <p class="text-gray-600 text-sm sm:text-base">Lihat preview template kami dan temukan desain yang paling cocok untuk kebutuhan Anda.</p>
             </div>
 
             <!-- Tabs (Kategori) -->
             <div class="flex justify-center mb-6">
-              <button class="px-4 py-2 text-sm font-semibold text-gray-800 category-active" onclick="filterSelection('all', this)">Semua</button>
-              <button class="px-4 py-2 text-sm font-semibold text-gray-800 mx-4" onclick="filterSelection('pernikahan', this)">Pernikahan</button>
-              <button class="px-4 py-2 text-sm font-semibold text-gray-800 mx-4" onclick="filterSelection('kedukaan', this)">Kedukaan</button>
-              <button class="px-4 py-2 text-sm font-semibold text-gray-800" onclick="filterSelection('khitanan', this)">Khitanan</button>
+                <button class="px-2 py-1 text-xs sm:px-4 sm:py-2 sm:text-sm font-semibold text-gray-800 category-active" onclick="filterSelection('all', this)">Semua</button>
+                <button class="px-2 py-1 mx-2 text-xs sm:mx-4 sm:px-4 sm:py-2 sm:text-sm font-semibold text-gray-800" onclick="filterSelection('pernikahan', this)">Pernikahan</button>
+                {{-- <button class="px-2 py-1 mx-2 text-xs sm:mx-4 sm:px-4 sm:py-2 sm:text-sm font-semibold text-gray-800" onclick="filterSelection('kedukaan', this)">Kedukaan</button> --}}
+                <button class="px-2 py-1 text-xs sm:px-4 sm:py-2 sm:text-sm font-semibold text-gray-800" onclick="filterSelection('khitanan', this)">Khitanan</button>
             </div>
 
             <!-- Grid Template -->
-            <div id="templateContainer" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              <!-- Card 1 (Pernikahan) -->
-              <div class="template-item bg-white rounded-lg shadow-md overflow-hidden fade-enter fade-enter-active" data-category="pernikahan">
-                <img src="{{ asset('assets/img/mockup-undangan/frame-1.png') }}" alt="Ruwah Suci" class="w-full object-cover">
-                <div class="p-4 text-start">
-                  <h3 class="text-lg font-semibold mb-2">Ruwah Suci</h3>
-                  <div class="flex justify-between gap-2">
-                    <button class="px-4 py-2 bg-coklat text-white rounded-md">Lihat Demo</button>
-                    <button class="px-4 py-2 bg-coklat text-white rounded-md">Pesan</button>
-                  </div>
+            <div id="templateContainer" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8">
+                <!-- Card 1 (Pernikahan) -->
+                <div class="template-item bg-white rounded-lg shadow-md overflow-hidden fade-enter fade-enter-active" data-category="pernikahan">
+                    <img src="{{ asset('assets/img/mockup-undangan/frame-1.png') }}" alt="Ruwah Suci" class="w-full h-64 sm:h-80 object-cover">
+                    <div class="p-2 sm:p-4 text-start">
+                        <h3 class="text-sm sm:text-lg font-semibold mb-2">Ruwah Suci</h3>
+                        <div class="flex justify-between gap-2">
+                            <a href="https://nemolab-nusa-infomedia.github.io/template-invitation/view/undangan-v1/index.html" class="px-2 py-1 text-xs sm:px-4 sm:py-2 sm:text-sm bg-coklat text-white rounded-md">Lihat Demo</a>
+                            <button class="px-2 py-1 text-xs sm:px-4 sm:py-2 sm:text-sm bg-coklat text-white rounded-md">Pesan</button>
+                        </div>
+                    </div>
                 </div>
-              </div>
 
-              <!-- Card 2 (Kedukaan) -->
-              <div class="template-item bg-white rounded-lg shadow-md overflow-hidden fade-enter fade-enter-active" data-category="kedukaan">
-                <img src="{{ asset('assets/img/mockup-undangan/frame-2.png') }}" alt="Modern Elegan" class="w-full object-cover">
-                <div class="p-4 text-start">
-                  <h3 class="text-lg font-semibold mb-2">Modern Elegan</h3>
-                  <div class="flex justify-between gap-2">
-                    <button class="px-4 py-2 bg-coklat text-white rounded-md">Lihat Demo</button>
-                    <button class="px-4 py-2 bg-coklat text-white rounded-md">Pesan</button>
-                  </div>
+                <!-- Card 2 (Pernikahan) -->
+                <div class="template-item bg-white rounded-lg shadow-md overflow-hidden fade-enter fade-enter-active" data-category="pernikahan">
+                    <img src="{{ asset('assets/img/mockup-undangan/frame-2.png') }}" alt="Modern Elegan" class="w-full h-64 sm:h-80 object-cover">
+                    <div class="p-2 sm:p-4 text-start">
+                        <h3 class="text-sm sm:text-lg font-semibold mb-2">Modern Elegan</h3>
+                        <div class="flex justify-between gap-2">
+                            <a href="https://nemolab-nusa-infomedia.github.io/template-invitation/view/undangan-v2/index.html" class="px-2 py-1 text-xs sm:px-4 sm:py-2 sm:text-sm bg-coklat text-white rounded-md">Lihat Demo</a>
+                            <button class="px-2 py-1 text-xs sm:px-4 sm:py-2 sm:text-sm bg-coklat text-white rounded-md">Pesan</button>
+                        </div>
+                    </div>
                 </div>
-              </div>
 
-              <!-- Card 3 (Pernikahan) -->
-              <div class="template-item bg-white rounded-lg shadow-md overflow-hidden fade-enter fade-enter-active" data-category="pernikahan">
-                <img src="{{ asset('assets/img/mockup-undangan/frame-3.png') }}" alt="Nuansa Nostalgia" class="w-full object-cover">
-                <div class="p-4 text-start">
-                  <h3 class="text-lg font-semibold mb-2">Nuansa Nostalgia</h3>
-                  <div class="flex justify-between gap-2">
-                    <button class="px-4 py-2 bg-coklat text-white rounded-md">Lihat Demo</button>
-                    <button class="px-4 py-2 bg-coklat text-white rounded-md">Pesan</button>
-                  </div>
+                <!-- Card 3 (Khitanan) -->
+                <div class="template-item bg-white rounded-lg shadow-md overflow-hidden fade-enter fade-enter-active" data-category="khitanan">
+                    <img src="{{ asset('assets/img/mockup-undangan/frame-3.png') }}" alt="Nuansa Nostalgia" class="w-full h-64 sm:h-80 object-cover">
+                    <div class="p-2 sm:p-4 text-start">
+                        <h3 class="text-sm sm:text-lg font-semibold mb-2">Khitan</h3>
+                        <div class="flex justify-between gap-2">
+                            <a href="https://nemolab-nusa-infomedia.github.io/template-invitation/view/undangan-v3/index.html" class="px-2 py-1 text-xs sm:px-4 sm:py-2 sm:text-sm bg-coklat text-white rounded-md">Lihat Demo</a>
+                            <button class="px-2 py-1 text-xs sm:px-4 sm:py-2 sm:text-sm bg-coklat text-white rounded-md">Pesan</button>
+                        </div>
+                    </div>
                 </div>
-              </div>
 
-              <!-- Card 4 (Khitanan) -->
-              <div class="template-item bg-white rounded-lg shadow-md overflow-hidden fade-enter fade-enter-active" data-category="khitanan">
-                <img src="{{ asset('assets/img/mockup-undangan/frame-3.png') }}" alt="Khitanan Modern" class="w-full object-cover">
-                <div class="p-4 text-start">
-                  <h3 class="text-lg font-semibold mb-2">Khitanan Modern</h3>
-                  <div class="flex justify-between gap-2">
-                    <button class="px-4 py-2 bg-coklat text-white rounded-md">Lihat Demo</button>
-                    <button class="px-4 py-2 bg-coklat text-white rounded-md">Pesan</button>
-                  </div>
+                <!-- Card 4 (Pernikahan) -->
+                <div class="template-item bg-white rounded-lg shadow-md overflow-hidden fade-enter fade-enter-active" data-category="pernikahan">
+                    <img src="{{ asset('assets/img/mockup-undangan/frame-3.png') }}" alt="Khitanan Modern" class="w-full h-64 sm:h-80 object-cover">
+                    <div class="p-2 sm:p-4 text-start">
+                        <h3 class="text-sm sm:text-lg font-semibold mb-2">Wedding</h3>
+                        <div class="flex justify-between gap-2">
+                            <a href="https://nemolab-nusa-infomedia.github.io/template-invitation/view/undangan-v4/index.html" class="px-2 py-1 text-xs sm:px-4 sm:py-2 sm:text-sm bg-coklat text-white rounded-md">Lihat Demo</a>
+                            <button class="px-2 py-1 text-xs sm:px-4 sm:py-2 sm:text-sm bg-coklat text-white rounded-md">Pesan</button>
+                        </div>
+                    </div>
                 </div>
-              </div>
-
-              <!-- Card 5 (pernikahan) -->
-              <div class="template-item bg-white rounded-lg shadow-md overflow-hidden fade-enter fade-enter-active" data-category="pernikahan">
-                <img src="{{ asset('assets/img/mockup-undangan/frame-2.png') }}" alt="Khitanan Modern" class="w-full object-cover">
-                <div class="p-4 text-start">
-                  <h3 class="text-lg font-semibold mb-2">Pernikahan Modern</h3>
-                  <div class="flex justify-between gap-2">
-                    <button class="px-4 py-2 bg-coklat text-white rounded-md">Lihat Demo</button>
-                    <button class="px-4 py-2 bg-coklat text-white rounded-md">Pesan</button>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Card 6 (duka) -->
-              <div class="template-item bg-white rounded-lg shadow-md overflow-hidden fade-enter fade-enter-active" data-category="kedukaan">
-                <img src="{{ asset('assets/img/mockup-undangan/frame-1.png') }}" alt="Khitanan Modern" class="w-full object-cover">
-                <div class="p-4 text-start">
-                  <h3 class="text-lg font-semibold mb-2">Duka</h3>
-                  <div class="flex justify-between gap-2">
-                    <button class="px-4 py-2 bg-coklat text-white rounded-md">Lihat Demo</button>
-                    <button class="px-4 py-2 bg-coklat text-white rounded-md">Pesan</button>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Tambahkan lebih banyak card sesuai kebutuhan -->
             </div>
-          </section>
+        </div>
         <!-- END SECTION 5 -->
 @endsection
