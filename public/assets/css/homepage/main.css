@@ -284,10 +284,10 @@ body{
     }
 }
 
-@media (max-width: 514px) {
+@media (max-width: 768px) {
     .floating-button {
         right: 18px;
-        bottom: 150px;
+        bottom: 100px;
     }
   }
 
