@@ -284,6 +284,13 @@ body{
     }
 }
 
+@media (max-width: 768px) {
+    .floating-button {
+        right: 18px;
+        bottom: 100px;
+    }
+  }
+
 
 /* footer */
 .footer {
