@@ -15,7 +15,7 @@
           <a class="nav-link" href="#bantuan">Bantuan</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#tamplate">Tamplate</a>
+          <a class="nav-link" href="#template">Template</a>
         </li>
         <!-- <li class="nav-item">
             <a href="#" class="btn btn-outline-pink text-dark">Masuk</a>
@@ -23,7 +23,7 @@
       </ul>
     </div>
     <div class="auth">
-        <a href="#tamplate" class="btn btn-pink rounded-pill">Coba Tamplate Gratis</a>
+        <a href="#template" class="btn btn-pink rounded-pill">Coba Template Gratis</a>
     </div>
   </nav>
 
@@ -32,7 +32,7 @@
       <li><a href="#home"><i class="fa-solid fa-house"></i><span>Beranda</span></a></li>
       <li><a href="#keunggulan"><i class='bx bx-calendar-star'></i><span>Keunggulan</span></a></li>
       <li><a href="#bantuan"><i class='bx bx-help-circle'></i><span>Bantuan</span></a></li>
-      <li><a href="#tamplate"><i class='bx bx-folder-open'></i></i><span>Tamplate</span></a></li>
-      <li><a href="#tamplate"><i class='bx bx-user'></i><span>Login</span></a></li>
+      <li><a href="#template"><i class='bx bx-folder-open'></i></i><span>Template</span></a></li>
+      <li><a href="#template"><i class='bx bx-user'></i><span>Login</span></a></li>
     </ul>
   </div>
