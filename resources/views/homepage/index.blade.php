@@ -202,7 +202,7 @@
             <div class="card border-0">
                 <div class="card-body p-0">
                     <img src="{{ asset('assets/img/mockup-undangan/frame2.png') }}" class="mb-2" width="100%" alt="">
-                    <span class="fw-bold">Simfoni Pernikahan</span>
+                    <span class="fw-bold">Sasmitaning Asmara</span>
                     <div class="mt-3 d-flex flex-column flex-sm-row justify-content-between">
                         <a href="https://nemolab-nusa-infomedia.github.io/template-invitation/view/undangan-v1/index.html" target="_blank" class="btn btn-pink btn-sm mb-2 mb-sm-0">Lihat Demo</a>
                         <a href="https://wa.me/6285183038794?text=Halo%20Hugo%20Studio,%20Saya%20ingin%20memesan%20undangan%20online.%20Mohon%20informasi%20lebih%20lanjut%20mengenai%20proses%20pemesanan%20dan%20harga.%20Terima%20kasih!" target="_blank" class="btn btn-pink btn-sm">Pesan</a>
