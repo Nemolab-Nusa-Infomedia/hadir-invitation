@@ -57,7 +57,7 @@
         <div class="col-12 col-md-6 text-start mb-4">
             <h3 class="fw-bold">Keunggulan Undangan Digital untuk Acara Anda</h3>
             <p class="py-3">Undangan digital memungkinkan Anda menyesuaikan desain dengan tema acara secara fleksibel dan mudah melakukan perubahan. Edit elemen desain dan kirim pembaruan instan, memastikan semua tamu mendapatkan informasi terbaru tanpa perlu mencetak ulang.</p>
-            <a href="#tamplate" class="btn btn-pink btn-sm py-2"><i class='bx bx-search-alt'></i> Lihat Tamplate</a>
+            <a href="#template" class="btn btn-pink btn-sm py-2"><i class='bx bx-search-alt'></i> Lihat Tamplate</a>
         </div>
 
         <div class="row col-12 col-md-6 g-3 mx-auto">
@@ -172,7 +172,7 @@
  <!-- end section 4 -->
 
  <!-- section 5 -->
- <div id="tamplate" class="container my-5 pb-5">
+ <div id="template" class="container my-5 pb-5">
     <h2 class="text-center">Temukan Inspirasi dari Beragam Template Kami</h2>
     <p class="text-center">Lihat preview template kami dan temukan desain yang paling cocok untuk kebutuhan Anda.</p>
 
