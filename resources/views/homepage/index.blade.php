@@ -202,7 +202,7 @@
             <div class="card border-0">
                 <div class="card-body p-0">
                     <img src="{{ asset('assets/img/mockup-undangan/frame2.png') }}" class="mb-2" width="100%" alt="">
-                    <span class="fw-bold">Bahtera Bahagia</span>
+                    <span class="fw-bold">Simfoni Pernikahan</span>
                     <div class="mt-3 d-flex flex-column flex-sm-row justify-content-between">
                         <a href="https://nemolab-nusa-infomedia.github.io/template-invitation/view/undangan-v1/index.html" target="_blank" class="btn btn-pink btn-sm mb-2 mb-sm-0">Lihat Demo</a>
                         <a href="https://wa.me/6285183038794?text=Halo%20Hugo%20Studio,%20Saya%20ingin%20memesan%20undangan%20online.%20Mohon%20informasi%20lebih%20lanjut%20mengenai%20proses%20pemesanan%20dan%20harga.%20Terima%20kasih!" target="_blank" class="btn btn-pink btn-sm">Pesan</a>
@@ -214,7 +214,7 @@
             <div class="card border-0">
                 <div class="card-body p-0">
                     <img src="{{ asset('assets/img/mockup-undangan/frame3.png') }}" class="mb-2" width="100%" alt="">
-                    <span class="fw-bold">Bahtera Bahagia</span>
+                    <span class="fw-bold">Forever Yours</span>
                     <div class="mt-3 d-flex flex-column flex-sm-row justify-content-between">
                         <a href="https://nemolab-nusa-infomedia.github.io/template-invitation/view/undangan-v4/index.html" target="_blank" class="btn btn-pink btn-sm mb-2 mb-sm-0">Lihat Demo</a>
                         <a href="https://wa.me/6285183038794?text=Halo%20Hugo%20Studio,%20Saya%20ingin%20memesan%20undangan%20online.%20Mohon%20informasi%20lebih%20lanjut%20mengenai%20proses%20pemesanan%20dan%20harga.%20Terima%20kasih!" target="_blank" class="btn btn-pink btn-sm">Pesan</a>
@@ -226,7 +226,7 @@
             <div class="card border-0">
                 <div class="card-body p-0">
                     <img src="{{ asset('assets/img/mockup-undangan/frame4.png') }}" class="mb-2" width="100%" alt="">
-                    <span class="fw-bold">Bahtera Bahagia</span>
+                    <span class="fw-bold">Tradisi Bahagia</span>
                     <div class="mt-3 d-flex flex-column flex-sm-row justify-content-between">
                         <a href="https://nemolab-nusa-infomedia.github.io/template-invitation/view/undangan-v3/index.html" target="_blank" class="btn btn-pink btn-sm mb-2 mb-sm-0">Lihat Demo</a>
                         <a href="https://wa.me/6285183038794?text=Halo%20Hugo%20Studio,%20Saya%20ingin%20memesan%20undangan%20online.%20Mohon%20informasi%20lebih%20lanjut%20mengenai%20proses%20pemesanan%20dan%20harga.%20Terima%20kasih!" target="_blank" class="btn btn-pink btn-sm">Pesan</a>
@@ -238,7 +238,7 @@
             <div class="card border-0">
                 <div class="card-body p-0">
                     <img src="{{ asset('assets/img/mockup-undangan/frame5.png') }}" class="mb-2" width="100%" alt="">
-                    <span class="fw-bold">Bahtera Bahagia</span>
+                    <span class="fw-bold">Luminous Love</span>
                     <div class="mt-3 d-flex flex-column flex-sm-row justify-content-between">
                         <a href="https://nemolab-nusa-infomedia.github.io/template-invitation/view/undangan-v2/index.html" target="_blank" class="btn btn-pink btn-sm mb-2 mb-sm-0">Lihat Demo</a>
                         <a href="https://wa.me/6285183038794?text=Halo%20Hugo%20Studio,%20Saya%20ingin%20memesan%20undangan%20online.%20Mohon%20informasi%20lebih%20lanjut%20mengenai%20proses%20pemesanan%20dan%20harga.%20Terima%20kasih!" target="_blank" class="btn btn-pink btn-sm">Pesan</a>
@@ -250,7 +250,7 @@
             <div class="card border-0">
                 <div class="card-body p-0">
                     <img src="{{ asset('assets/img/mockup-undangan/frame6.png') }}" class="mb-2" width="100%" alt="">
-                    <span class="fw-bold">Bahtera Bahagia</span>
+                    <span class="fw-bold">Harmoni Cinta</span>
                     <div class="mt-3 d-flex flex-column flex-sm-row justify-content-between">
                         <a href="https://nemolab-nusa-infomedia.github.io/template-invitation/view/undangan-v6/index.html" target="_blank" class="btn btn-pink btn-sm mb-2 mb-sm-0">Lihat Demo</a>
                         <a href="https://wa.me/6285183038794?text=Halo%20Hugo%20Studio,%20Saya%20ingin%20memesan%20undangan%20online.%20Mohon%20informasi%20lebih%20lanjut%20mengenai%20proses%20pemesanan%20dan%20harga.%20Terima%20kasih!" target="_blank" class="btn btn-pink btn-sm">Pesan</a>
@@ -262,7 +262,7 @@
             <div class="card border-0">
                 <div class="card-body p-0">
                     <img src="{{ asset('assets/img/mockup-undangan/frame7.png') }}" class="mb-2" width="100%" alt="">
-                    <span class="fw-bold">Bahtera Bahagia</span>
+                    <span class="fw-bold">Cahaya Cinta</span>
                     <div class="mt-3 d-flex flex-column flex-sm-row justify-content-between">
                         <a href="https://nemolab-nusa-infomedia.github.io/template-invitation/view/undangan-v7/index.html" target="_blank" class="btn btn-pink btn-sm mb-2 mb-sm-0">Lihat Demo</a>
                         <a href="https://wa.me/6285183038794?text=Halo%20Hugo%20Studio,%20Saya%20ingin%20memesan%20undangan%20online.%20Mohon%20informasi%20lebih%20lanjut%20mengenai%20proses%20pemesanan%20dan%20harga.%20Terima%20kasih!" target="_blank" class="btn btn-pink btn-sm">Pesan</a>
