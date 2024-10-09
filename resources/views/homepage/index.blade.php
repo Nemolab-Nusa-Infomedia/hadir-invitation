@@ -171,6 +171,93 @@
   </div>
  <!-- end section 4 -->
 
+    <div class="container my-5">
+        <div class="section-title">
+            <h2 class="fw-bold">Semua Paket, Semua Fitur: Pilih Sesuai Kebutuhan Anda!</h2>
+            <p>Mudah Dan Terjangkau: Pelayanan Ramah, Respon Cepat, Dan Desain Undangan Tanpa Repot!</p>
+        </div>
+
+        <div class="row g-4">
+            <!-- Paket Cuma-Cuma -->
+            <div class="col-lg-3 col-md-6">
+                <div class="package-card">
+                    <h5>Paket Cuma-Cuma (Gratis)</h5>
+                    <p class="border-bottom">Gratis, tapi tetap keren!</p>
+                    <ul>
+                        <li><i class="bi bi-geo-alt"></i> Tersedia Peta Lokasi (Maps)</li>
+                        <li><i class="bi bi-clock"></i> Hitungan Mundur</li>
+                        <li><i class="bi bi-droplet"></i> Watermark/Logo</li>
+                        <li><i class="bi bi-x-circle"></i> Tidak Ada Backsound</li>
+                        <li><i class="bi bi-x-circle"></i> Tidak Ada Foto</li>
+                        <li><i class="bi bi-calendar"></i> Masa Aktif 3 Hari</li>
+                    </ul>
+                    <a href="https://wa.me/6285183038794?text=Halo%20Hugo%20Studio,%20Saya%20ingin%20memesan%20undangan%20online,%20saya%20memilih%20paket%20cuma-cuma.%20Mohon%20informasi%20lebih%20lanjut%20mengenai%20proses%20pemesanan%20dan%20harga.%20Terimakasih!" target="_blank" class="btn btn-package">Pilih Paket</a>
+                </div>
+            </div>
+
+            <!-- Paket Santai -->
+            <div class="col-lg-3 col-md-6">
+                <div class="package-card">
+                    <h5>Paket Santai (Rp 34.900)</h5>
+                    <p class="border-bottom">Santai, tapi tetap berkesan!</p>
+                    <ul>
+                        <li><i class="bi bi-geo-alt"></i> Tamu Undangan</li>
+                        <li><i class="bi bi-geo-alt"></i> Tersedia Peta Lokasi (Maps)</li>
+                        <li><i class="bi bi-clock"></i> Hitungan Mundur</li>
+                        <li><i class="bi bi-music-note"></i> 2 Pilihan Musik</li>
+                        <li><i class="bi bi-images"></i> Galeri Foto (Maksimal 5)</li>
+                        <li><i class="bi bi-palette"></i> Akses Seluruh Tema</li>
+                        <li><i class="bi bi-chat-square-dots"></i> Konfirmasi Kehadiran/Kotak Ucapan</li>
+                        <li><i class="bi bi-calendar"></i> Masa Aktif 7 Hari</li>
+                    </ul>
+                    <a href="https://wa.me/6285183038794?text=Halo%20Hugo%20Studio,%20Saya%20ingin%20memesan%20undangan%20online,%20saya%20memilih%20paket%20Santai.%20Mohon%20informasi%20lebih%20lanjut%20mengenai%20proses%20pemesanan%20dan%20harga.%20Terimakasih!" target="_blank" class="btn btn-package">Pilih Paket</a>
+                </div>
+            </div>
+
+            <!-- Paket Kece -->
+            <div class="col-lg-3 col-md-6">
+                <div class="package-card">
+                    <h5>Paket Kece (Rp 69.000)</h5>
+                    <p class="border-bottom">Kece maksimal, acara makin spesial!</p>
+                    <ul>
+                        <li><i class="bi bi-geo-alt"></i> Tamu Undangan</li>
+                        <li><i class="bi bi-geo-alt"></i> Tersedia Peta Lokasi (Maps)</li>
+                        <li><i class="bi bi-clock"></i> Hitungan Mundur</li>
+                        <li><i class="bi bi-music-note"></i> 5 Pilihan Musik</li>
+                        <li><i class="bi bi-images"></i> Galeri Foto (Maksimal 10)</li>
+                        <li><i class="bi bi-palette"></i> Akses Seluruh Tema</li>
+                        <li><i class="bi bi-wallet2"></i> 2 Rekening Hadiah</li>
+                        <li><i class="bi bi-chat-square-dots"></i> Konfirmasi Kehadiran/Kotak Ucapan</li>
+                        <li><i class="bi bi-calendar"></i> Masa Aktif 15 Hari</li>
+                    </ul>
+                    <a href="https://wa.me/6285183038794?text=Halo%20Hugo%20Studio,%20Saya%20ingin%20memesan%20undangan%20online,%20saya%20memilih%20paket%20Kece.%20Mohon%20informasi%20lebih%20lanjut%20mengenai%20proses%20pemesanan%20dan%20harga.%20Terimakasih!" target="_blank" class="btn btn-package">Pilih Paket</a>
+                </div>
+            </div>
+
+            <!-- Paket OOTD -->
+            <div class="col-lg-3 col-md-6">
+                <div class="package-card">
+                    <h5>Paket OOTD (Mulai dari Rp 74.000)</h5>
+                    <p class="border-bottom">Paket Spesial yang Memukau!</p>
+                    <ul>
+                        <li><i class="bi bi-geo-alt"></i> Semua Fitur Pada Paket Kece</li>
+                        <li><i class="bi bi-star"></i> Bebas Costum</li>
+                        <li><i class="bi bi-fonts"></i> Costum Font</li>
+                        <li><i class="bi bi-music-note"></i> Costum Musik</li>
+                        <li><i class="bi bi-images"></i> Galeri Foto (Maksimal 20)</li>
+                        <li><i class="bi bi-palette"></i> Costum Design</li>
+                        <li><i class="bi bi-wallet2"></i> 6 Rekening Hadiah</li>
+                        <li><i class="bi bi-qr-code"></i> Tersedia QR Code</li>
+                        <li><i class="bi bi-chat-square-dots"></i> Konfirmasi Kehadiran Tamu</li>
+                        <li><i class="bi bi-reply"></i> Balas Ucapan Di Undangan</li>
+                        <li><i class="bi bi-calendar"></i> Masa Aktif 1 Bulan</li>
+                    </ul>
+                    <a href="https://wa.me/6285183038794?text=Halo%20Hugo%20Studio,%20Saya%20ingin%20memesan%20undangan%20online,%20saya%20memilih%20paket%20OOTD.%20Mohon%20informasi%20lebih%20lanjut%20mengenai%20proses%20pemesanan%20dan%20harga.%20Terimakasih!" target="_blank" class="btn btn-package">Pilih Paket</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
  <!-- section 5 -->
  <div id="template" class="container my-5 pb-5">
     <h2 class="text-center">Temukan Inspirasi dari Beragam Template Kami</h2>
