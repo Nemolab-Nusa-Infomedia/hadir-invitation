@@ -361,7 +361,7 @@
         <div class="template-card col-6 col-md-3 mb-3" data-category="natal">
             <div class="card border-0">
                 <div class="card-body p-0">
-                    <img src="{{ asset('assets/img/mockup-undangan/frame7.png') }}" class="mb-2" width="100%" alt="">
+                    <img src="{{ asset('assets/img/mockup-undangan/frame8.png') }}" class="mb-2" width="100%" alt="">
                     <span class="fw-bold">Christmast Party</span>
                     <div class="mt-3 d-flex flex-column flex-sm-row justify-content-between">
                         <a href="https://nemolab-nusa-infomedia.github.io/template-invitation/view/undangan-v8/index.html" target="_blank" class="btn btn-pink btn-sm mb-2 mb-sm-0">Lihat Demo</a>
