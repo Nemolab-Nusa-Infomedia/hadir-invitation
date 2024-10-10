@@ -58,6 +58,10 @@ document.getElementById('khitan-btn').addEventListener('click', function() {
     filterCategory('khitan');
 });
 
+document.getElementById('natal-btn').addEventListener('click', function() {
+    filterCategory('natal');
+});
+
 document.getElementById('all-btn').addEventListener('click', function() {
     filterCategory('all');
 });
