@@ -383,7 +383,7 @@
             <div class="card border-0">
                 <div class="card-body p-0">
                     <img src="{{ asset('assets/img/mockup-undangan/frame10.png') }}" class="mb-2" width="100%" alt="">
-                    <span class="fw-bold">Beautiful Christmast</span>
+                    <span class="fw-bold">Santa's Sleigh</span>
                     <div class="mt-3 d-flex flex-column flex-sm-row justify-content-between">
                         <a href="https://nemolab-nusa-infomedia.github.io/template-invitation/view/undangan-v10/index.html" target="_blank" class="btn btn-pink btn-sm mb-2 mb-sm-0">Lihat Demo</a>
                         <a href="https://wa.me/6285183038794?text=Halo%20Hugo%20Studio,%20Saya%20ingin%20memesan%20undangan%20online.%20Mohon%20informasi%20lebih%20lanjut%20mengenai%20proses%20pemesanan%20dan%20harga.%20Terima%20kasih!" target="_blank" class="btn btn-pink btn-sm">Pesan</a>
@@ -391,7 +391,20 @@
                 </div>
             </div>
         </div>
-        {{-- 13 --}}
+        {{-- 11 --}}
+        <div class="template-card col-6 col-md-3 mb-3" data-category="khitan">
+            <div class="card border-0">
+                <div class="card-body p-0">
+                    <img src="{{ asset('assets/img/mockup-undangan/frame11.png') }}" class="mb-2" width="100%" alt="">
+                    <span class="fw-bold">Sweet Sunnah</span>
+                    <div class="mt-3 d-flex flex-column flex-sm-row justify-content-between">
+                        <a href="https://nemolab-nusa-infomedia.github.io/template-invitation/view/undangan-v11/index.html" target="_blank" class="btn btn-pink btn-sm mb-2 mb-sm-0">Lihat Demo</a>
+                        <a href="https://wa.me/6285183038794?text=Halo%20Hugo%20Studio,%20Saya%20ingin%20memesan%20undangan%20online.%20Mohon%20informasi%20lebih%20lanjut%20mengenai%20proses%20pemesanan%20dan%20harga.%20Terima%20kasih!" target="_blank" class="btn btn-pink btn-sm">Pesan</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{-- 12 --}}
         <div class="template-card col-6 col-md-3 mb-3" data-category="khitan">
             <div class="card border-0">
                 <div class="card-body p-0">
@@ -399,6 +412,45 @@
                     <span class="fw-bold">Jagoanku Khitanan</span>
                     <div class="mt-3 d-flex flex-column flex-sm-row justify-content-between">
                         <a href="https://nemolab-nusa-infomedia.github.io/template-invitation/view/undangan-v12/index.html" target="_blank" class="btn btn-pink btn-sm mb-2 mb-sm-0">Lihat Demo</a>
+                        <a href="https://wa.me/6285183038794?text=Halo%20Hugo%20Studio,%20Saya%20ingin%20memesan%20undangan%20online.%20Mohon%20informasi%20lebih%20lanjut%20mengenai%20proses%20pemesanan%20dan%20harga.%20Terima%20kasih!" target="_blank" class="btn btn-pink btn-sm">Pesan</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{-- 13 --}}
+        <div class="template-card col-6 col-md-3 mb-3" data-category="natal">
+            <div class="card border-0">
+                <div class="card-body p-0">
+                    <img src="{{ asset('assets/img/mockup-undangan/frame13.png') }}" class="mb-2" width="100%" alt="">
+                    <span class="fw-bold">Christmas Cheer</span>
+                    <div class="mt-3 d-flex flex-column flex-sm-row justify-content-between">
+                        <a href="https://nemolab-nusa-infomedia.github.io/template-invitation/view/undangan-v13/index.html" target="_blank" class="btn btn-pink btn-sm mb-2 mb-sm-0">Lihat Demo</a>
+                        <a href="https://wa.me/6285183038794?text=Halo%20Hugo%20Studio,%20Saya%20ingin%20memesan%20undangan%20online.%20Mohon%20informasi%20lebih%20lanjut%20mengenai%20proses%20pemesanan%20dan%20harga.%20Terima%20kasih!" target="_blank" class="btn btn-pink btn-sm">Pesan</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{-- 14 --}}
+        <div class="template-card col-6 col-md-3 mb-3" data-category="natal">
+            <div class="card border-0">
+                <div class="card-body p-0">
+                    <img src="{{ asset('assets/img/mockup-undangan/frame14.png') }}" class="mb-2" width="100%" alt="">
+                    <span class="fw-bold">Winter Wonderland</span>
+                    <div class="mt-3 d-flex flex-column flex-sm-row justify-content-between">
+                        <a href="https://nemolab-nusa-infomedia.github.io/template-invitation/view/undangan-v14/index.html" target="_blank" class="btn btn-pink btn-sm mb-2 mb-sm-0">Lihat Demo</a>
+                        <a href="https://wa.me/6285183038794?text=Halo%20Hugo%20Studio,%20Saya%20ingin%20memesan%20undangan%20online.%20Mohon%20informasi%20lebih%20lanjut%20mengenai%20proses%20pemesanan%20dan%20harga.%20Terima%20kasih!" target="_blank" class="btn btn-pink btn-sm">Pesan</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{-- 15 --}}
+        <div class="template-card col-6 col-md-3 mb-3" data-category="natal">
+            <div class="card border-0">
+                <div class="card-body p-0">
+                    <img src="{{ asset('assets/img/mockup-undangan/frame15.png') }}" class="mb-2" width="100%" alt="">
+                    <span class="fw-bold">Elegant Evergreen</span>
+                    <div class="mt-3 d-flex flex-column flex-sm-row justify-content-between">
+                        <a href="https://nemolab-nusa-infomedia.github.io/template-invitation/view/undangan-v15/index.html" target="_blank" class="btn btn-pink btn-sm mb-2 mb-sm-0">Lihat Demo</a>
                         <a href="https://wa.me/6285183038794?text=Halo%20Hugo%20Studio,%20Saya%20ingin%20memesan%20undangan%20online.%20Mohon%20informasi%20lebih%20lanjut%20mengenai%20proses%20pemesanan%20dan%20harga.%20Terima%20kasih!" target="_blank" class="btn btn-pink btn-sm">Pesan</a>
                     </div>
                 </div>
